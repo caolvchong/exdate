@@ -1,0 +1,25 @@
+{
+    "name": "xdate",
+    "version": "0.0.1",
+    "description": "the best date tool for javascript/node",
+    "main": "./lib/xdate.js",
+    "bin": {
+        "xdate": "lib/xdate.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/caolvchong/xdate.git"
+    },
+    "keywords": [
+        "date", "util", "javascript", "node"
+    ],
+    "author": "caolvchong <caolvchong@gmail.com> (http://firejs.blogspot.com/)",
+    "license": "BSD",
+    "dependencies": {},
+    "engines": {
+        "node": "*"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {},
+    "homepage": "https://github.com/caolvchong/xdate"
+}
