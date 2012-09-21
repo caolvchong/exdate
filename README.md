@@ -8,9 +8,9 @@ javascript 日期对象格式化，字符串转日期对象，日期格式检查
 
 2. 安装npm，参见：https://github.com/isaacs/npm
 
-3. 安装xdate
+3. 安装exdate
 
-     $ npm install xdate
+     $ npm install exdate
 
 ##日期格式说明
 Field        | Full Form          | Short Form
