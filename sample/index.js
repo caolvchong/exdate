@@ -1,4 +1,4 @@
-var xdate = require('../lib/xdate');
+var xdate = require('../lib/exdate');
 
 /**--------------------------------------------
  * 实例1：闰年检查

@@ -1,14 +1,14 @@
 {
-    "name": "xdate",
+    "name": "exdate",
     "version": "0.0.1",
     "description": "the best date tool for javascript/node",
-    "main": "./lib/xdate.js",
+    "main": "./lib/exdate.js",
     "bin": {
-        "xdate": "lib/xdate.js"
+        "xdate": "lib/exdate.js"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/caolvchong/xdate.git"
+        "url": "git://github.com/caolvchong/exdate.git"
     },
     "keywords": [
         "date", "util", "javascript", "node"
@@ -21,5 +21,5 @@
     },
     "devDependencies": {},
     "optionalDependencies": {},
-    "homepage": "https://github.com/caolvchong/xdate"
+    "homepage": "https://github.com/caolvchong/exdate"
 }
