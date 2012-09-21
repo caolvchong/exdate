@@ -43,3 +43,13 @@ console.log(exdate.format(new Date(), 'yyyy/MM/dd HH:mm:ss'));
 console.log(exdate.distance(new Date(), 25));
 console.log(exdate.distance(new Date(), -2, 'M'));
 console.log(exdate.distance(new Date(), 3, 'y'));
+
+/**--------------------------------------------
+ * 实例8：日期对象更友好展示
+ * --------------------------------------------*/
+console.log(exdate.xformat(new Date(new Date - 10 * 1000))); // 10秒前
+console.log(exdate.xformat(new Date(new Date - 12 * 60 * 1000))); // 12分钟前
+console.log(exdate.xformat(new Date(new Date - 65 * 60 * 1000))); // 65分钟前
+console.log(exdate.xformat(new Date(new Date - 24 * 60 * 60 * 1000))); // 1天前
+console.log(exdate.xformat(new Date(new Date - 5 * 24 * 60 * 60 * 1000))); // 5天前
+console.log(exdate.xformat(new Date(new Date - 366 * 24 * 60 * 60 * 1000))); // 366天前
