@@ -1,6 +1,6 @@
 {
     "name": "exdate",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "the best date tool for javascript/node",
     "main": "./lib/exdate.js",
     "bin": {
