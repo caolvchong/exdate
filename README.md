@@ -14,21 +14,19 @@
             $ npm install xdate
 
 ##日期格式说明
- * -------------|--------------------|-----------------------
- * Field        | Full Form          | Short Form
- * -------------|--------------------|-----------------------
- * Year         | yyyy (4 digits)    | yy (2 digits), y (2 or 4 digits)
- * Month        | MMM (name or abbr.)| MM (2 digits), M (1 or 2 digits)| NNN (abbr)
- * Day of Month | dd (2 digits)      | d (1 or 2 digits)
- * Day of Week  | EE (name)          | E (abbr)
- * Hour (1-12)  | hh (2 digits)      | h (1 or 2 digits)
- * Hour (0-23)  | HH (2 digits)      | H (1 or 2 digits)
- * Hour (0-11)  | KK (2 digits)      | K (1 or 2 digits)
- * Hour (1-24)  | kk (2 digits)      | k (1 or 2 digits)
- * Minute       | mm (2 digits)      | m (1 or 2 digits)
- * Second       | ss (2 digits)      | s (1 or 2 digits)
- * AM/PM        | a                  |
- * -------------|--------------------|-----------------------
+Field        | Full Form          | Short Form
+-------------|:------------------:|-----------------------:
+Year         | yyyy (4 digits)    | yy (2 digits), y (2 or 4 digits)
+Month        | MMM (name or abbr.)| MM (2 digits), M (1 or 2 digits)| NNN (abbr)
+Day of Month | dd (2 digits)      | d (1 or 2 digits)
+Day of Week  | EE (name)          | E (abbr)
+Hour (1-12)  | hh (2 digits)      | h (1 or 2 digits)
+Hour (0-23)  | HH (2 digits)      | H (1 or 2 digits)
+Hour (0-11)  | KK (2 digits)      | K (1 or 2 digits)
+Hour (1-24)  | kk (2 digits)      | k (1 or 2 digits)
+Minute       | mm (2 digits)      | m (1 or 2 digits)
+Second       | ss (2 digits)      | s (1 or 2 digits)
+AM/PM        | a                  |
 
 ##API
 ### xdate.isLeap(year) 判断是否是闰年
