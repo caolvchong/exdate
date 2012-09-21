@@ -1,7 +1,7 @@
 #便捷的javascript date 处理工具
 
 ##目的
-减轻前端拼接大量HTML以及维护时候的困难程度
+javascript 日期对象格式化，字符串转日期对象，日期格式检查，日期比较以及日期间隔的工具
 
 ##安装
 1. 安装node，参见：https://github.com/joyent/node
