@@ -68,4 +68,13 @@ AM/PM        | a                  |
     * @param {String} unit 时间单位,默认天，具体单位分别是：y年，q季度，M月，h时，m分，s秒，w周，其他都是天
     * @return {Date} 日期对象
 
+### exdate.xformat(date, i18n) 和当前时间比较, 返回更亲和的格式
+    * 1小时之内: 显示 x秒前/x分钟前
+    * 今天之内: 显示 今天 x时x分
+    * 今年之内: 显示 x月x日 x时x分
+    * 今年之前: 显示 x年x月x日 x时x分
+    * @param date 需要格式化的日期对象
+    * @param i18n 国际化，默认中文格式
+    * @return {String} 格式化好的可读的日期字符串
+    
 详细的使用参看sample中的例子
